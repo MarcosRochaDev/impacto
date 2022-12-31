@@ -1,0 +1,134 @@
+:root {
+    --royal-blue-light: #eda840;
+    --royal-blue-dark: #694c20;
+    --write: #fff;
+    --background: #ecebeb;
+    --bk-link-menu: #a76060;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--background);
+    
+}
+a{
+    color: var(--write);
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--royal-blue-light);
+    padding: 0.2rem;
+ 
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+
+}
+.menu a{
+    display: block;
+    padding: .4rem;
+    border-radius: 0.1rem;
+    
+}
+.menu a:hover{
+    background: var(--royal-blue-dark);
+    
+}
+.label-menu,
+.checkbox{
+    display: none;
+}
+.menu ul{
+   position: absolute; 
+   display: none;
+}
+.menu li:hover ul{
+    transition: 2s;
+    display:block;
+    position: absolute;
+    list-style: none;
+    text-decoration: none; 
+    background: var(--royal-blue-light); 
+    padding: .0rem;
+      
+}
+
+@media(max-width: 380px){
+    .menu{
+        display: block;
+        position: absolute;
+        top: 4.0rem;
+        left: 0;
+        background: var(--royal-blue-light);
+        text-align: center;
+        width: 100%;
+        height: calc(100vh-4.0rem);
+        z-index: 1;
+        align-items: center;
+             
+    }
+    .menu li:hover ul{
+        transition: 2s;
+        display:block;
+        position: relative;
+        list-style: none;
+        text-decoration: none; 
+        background: var(--royal-blue-light); 
+        padding: .0rem;
+          
+    }
+
+    .menu-bike li{
+        
+        border-radius: .2rem;
+        justify-content: space-between;
+    
+    }
+    .menu-bike li a{
+        background-color: var(--bk-link-menu);
+        font-style: italic;
+    }
+
+    .label-menu{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--write);
+        padding-block: 1rem;
+        cursor: pointer;
+    }
+    .hamburger{
+        border-top: 0.125rem solid;
+        width: 1.25rem;
+        height: 1px;
+        
+        
+    }
+    .hamburger::before,
+    .hamburger::after{
+        content: " ";
+        display: block;
+        width: 1.25rem;
+        background: currentColor;
+        margin-top: 0.3125rem;
+        
+    }
+}
