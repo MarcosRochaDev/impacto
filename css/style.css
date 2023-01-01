@@ -11,24 +11,31 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-shadow: 0px 3px 6px rgb(100, 23, 36);
+    transition: 30ms;
 }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--background);
+    
 }
 a{
     color: var(--write);
     text-decoration: none;
+    
 
 }
 header{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background: var(--royal-blue-light);
-    padding: 0.2rem;
- 
+    padding: 0.3rem;
+    padding-left: .9rem;
+    box-shadow: 0px 3px 15px rgb(233, 70, 97);
+    width: 100%;
+    height: 80px;
+    align-items: center;
 }
 
 .logo{
@@ -68,7 +75,67 @@ header{
       
 }
 
-@media(max-width: 380px){
+.img-gif img{
+    width: 80px;
+    
+}
+main div p{
+    font-size: 1em;
+    padding: 5rem;
+    
+}
+main{
+    display: block;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.footer p{
+    font-size: .6rem;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
+
+
+@media(max-width: 500px){
+    .menu{
+        display: block;
+        position: absolute;
+        top: 2.6rem;
+        left: 0;
+        background: var(--royal-blue-light);
+        text-align: center;
+        width: 100%;
+        height: calc(100vh-4.0rem);
+        align-items: center;
+             
+    }
+    .menu li:hover ul{
+        background: var(--bk-link-menu);
+        position: relative;
+          
+    }
+    header{
+        display: block;
+        text-align: center;
+        text-shadow: 0px 3px 6px rgb(100, 23, 36);
+    }
+    .main img{
+        width: 60px;
+        padding: 0%;
+    }
+}
+
+
+/* redimencionando portview
+@media(max-width: 500px){
     .menu{
         display: block;
         position: absolute;
@@ -94,7 +161,6 @@ header{
     }
 
     .menu-bike li{
-        
         border-radius: .2rem;
         justify-content: space-between;
     
