@@ -131,6 +131,16 @@ footer{
         width: 60px;
         padding: 0%;
     }
+    .footer p{
+        font-size: .6rem;
+        align-items: center;
+        text-align: center;
+    }
+    footer{
+        position: absolute;
+        bottom: 2%;
+        width: 100%;
+    }
 }
 
 
