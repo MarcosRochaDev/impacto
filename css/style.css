@@ -132,9 +132,13 @@ footer{
         
     }
 
-    .main{
-        margin-top: 20%;
-        font-size: 14px;
+    main{
+        display: block;
+        align-items: center;
+        margin-top: 1rem;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 15px;
     }
 
     footer{
