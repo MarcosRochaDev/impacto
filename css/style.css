@@ -45,9 +45,11 @@
 }
 .social img{
 width: 35px;
+border-radius: 30%;
 }
 .social img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: .011rem .125rem .5rem rgb(250, 248, 248);
     }
 
 .barra{
