@@ -10,142 +10,105 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     text-shadow: 0px 3px 6px rgb(100, 23, 36);
-    transition: 30ms;
-}
-
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: var(--background);
-    
-}
-a{
-    color: var(--write);
     text-decoration: none;
-    
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 340ms;
 }
-header{
+.container{
     display: flex;
+    background: #000000da;
     justify-content: space-between;
-    background: var(--royal-blue-light);
-    padding: 0.3rem;
-    padding-left: .9rem;
-    box-shadow: 0px 3px 15px rgb(233, 70, 97);
-    width: 100%;
-    height: 80px;
     align-items: center;
+    text-align: center;
+    padding: .3rem 2rem .3rem 2rem;
+    box-shadow: .15rem .4rem .8rem;
 }
-
-.logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.menu{
-    list-style: none;
+.logo img{
+    width: 100px;
+    border-radius: 3px;
     display: flex;
-    gap: 0.5rem;
 }
 .menu a{
-    display: block;
-    padding: .4rem;
-    border-radius: 0.1rem;
+    
+    color: var(--write);
+    align-items: center;
+    text-align: center;
+    margin-inline: 20px;
+}
+
+.social{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    gap: .6rem;
+}
+.barra{
+    background-color: #fff;
+    width: 2px;
+    height: 40px;
+    border-radius: 3px;
+    
+}
+/*----------------------------------------------------------------------*/
+.container-main{
+    display: flex;
+    justify-content: center;
+    
+}
+.container-item{
+    width: 300px;
+    height: 450px;
+    background-color: ;
+    margin: 25px 30px auto 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: .1rem .2rem .8rem;
+    margin: 35px 15px 15px 10px;
+    
+}
+.container-item:hover{
+    box-shadow: 0rem 0rem 2rem rgb(10, 10, 10);
+       
+}
+
+.container-item img{
+    width: 270px;
+    height: 170px;
+    padding: 1rem;
+}
+.descricao{
+    display: flex;
+    background-color: #f84f1b;
+    height: 4rem;
+    color: azure;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.valor{
+    align-items: center;
+    text-align: center;
+    padding-top: 0rem;
+}
+.comprar{
+    background-color: #f84f1b;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    border-radius: 3px;
+}
+.comprar:hover{
+    cursor: pointer;
+    background-color: #3c3f33;
+    color: #eda840;
 }
 .menu a:hover{
-    background: var(--royal-blue-dark);
+    color: #b9e635;
+    font-size: 20px;
+    border-bottom: 2px rgb(33, 202, 103) solid;
     
 }
-.label-menu,
-.checkbox{
-    display: none;
-}
-.menu ul{
-   position: absolute; 
-   display: none;
-}
-.menu li:hover ul{
-    transition: 2s;
-    display:block;
-    position: absolute;
-    list-style: none;
-    text-decoration: none; 
-    background: var(--royal-blue-light); 
-    padding: .0rem;
-      
-}
-
-.img-gif img{
-    width: 80px;
-    
-}
-main div p{
-    font-size: 1em;
-    padding: 5rem;
-    
-}
-main{
-    display: block;
-    align-items: center;
-    margin-top: 5rem;
-    text-align: center;
-    padding-top: 15px;
-
-}
-.footer p{
-    font-size: .6rem;
-    align-items: center;
-    text-align: center;
-}
-footer{
-    position: absolute;
-    bottom: 2%;
-    width: 100%;
-}
-
-
-@media(max-width: 500px){
-    .menu{
-        display: block;
-        position: absolute;
-        top: 2.6rem;
-        left: 0;
-        background: var(--royal-blue-light);
-        text-align: center;
-        width: 100%;
-        height: calc(100vh-4.0rem);
-        align-items: center;
-             
-    }
-    .menu li:hover ul{
-        background: var(--bk-link-menu);
-        position: relative;
-          
-    }
-    header{
-        display: block;
-        text-align: center;
-        text-shadow: 0px 3px 6px rgb(100, 23, 36);
-    }
-    .main img{
-        width: 60px;
-        
-    }
-
-    main{
-        display: block;
-        align-items: center;
-        margin-top: 1rem;
-        text-align: center;
-        padding-top: 5px;
-        font-size: 15px;
-    }
-
-    footer{
-        position: absolute;
-        bottom: 0%;
-        width: 100%;
-    }
-}
-
 
