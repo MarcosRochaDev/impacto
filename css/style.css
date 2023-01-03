@@ -76,6 +76,17 @@ border-radius: 30%;
     margin: 35px 15px 15px 10px;
     transition: 250ms;
 }
+
+/*menu mobile
+.menu-mobile a{
+    display: block;
+    background: rgba(0, 0, 0, 0.719);
+    font-size: 15px;
+    
+}
+
+fim menu mobile*/
+
 .container-item:hover{
     box-shadow: 0rem 0rem 2rem rgb(10, 10, 10);
     transform: scale(1.08);
