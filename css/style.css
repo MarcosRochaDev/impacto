@@ -181,16 +181,16 @@
 /*------------mobile versao 550-------------------*/
 @media screen and (max-width: 550px) {
     .menu a{
-    margin-inline: 5px;
     display: block;
+    text-align: end;
+    
 }
-.container, .logo{
-    display: block;
-    text-align: center;
-    align-items: center;
-    margin: auto auto;
-    }
-    .container img{
-        margin: auto;
-    }
+
+.descricao p{
+    border: 10px;
+
+}
+.footer p{
+    font-size: 10px;
+}
 }
