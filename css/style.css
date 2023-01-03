@@ -30,8 +30,7 @@
     display: flex;
 }
 .menu a{
-    
-    color: var(--write);
+        color: var(--write);
     align-items: center;
     text-align: center;
     margin-inline: 20px;
@@ -111,4 +110,14 @@
     border-bottom: 2px rgb(33, 202, 103) solid;
     
 }
-
+.footer{
+    
+    padding-bottom: 0;
+    
+}
+.footer p{
+    align-items: center;
+    padding-bottom: 0;
+    text-align: center;
+    bottom: 0%;
+}
