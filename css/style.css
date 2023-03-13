@@ -99,14 +99,14 @@ border-radius: 30%;
 
 .container-item:hover{
     box-shadow: 0rem 0rem 2rem rgb(10, 10, 10);
-    transform: scale(1.08);
+    
        
 }
 
 .container-item img{
     width: 270px;
     height: 270px;
-    padding: 1.5rem;
+    
     
 }
 .descricao{
@@ -139,7 +139,7 @@ border-radius: 30%;
     cursor: pointer;
     background-color: #10110e;
     color: #eda840;
-    transform: scale(1.05);
+    
 
 }
 
@@ -168,7 +168,7 @@ border-radius: 30%;
 
     .container-item{
         width: 200px;
-        height: 350px;
+        height: min-content;
         background-color: ;
         margin: 5px 5px auto 5px;
         border-radius: 2px;
@@ -179,7 +179,7 @@ border-radius: 30%;
     .container-item img{
         width: 150px;
         height: 150px;
-        padding: 1rem;
+        
     
     }
     .menu{
@@ -208,7 +208,7 @@ border-radius: 30%;
     .container-item{
         display:block;
         width: 100%;
-        height: auto;
+        height: min-content;
         border-radius: 1px;
         text-align: center;
         padding: 0%;
