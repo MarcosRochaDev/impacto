@@ -78,15 +78,21 @@ border-radius: 30%;
     
 }
 .container-item{
-    width: 300px;
-    height: 500px;
-    padding: 0px;
-    margin: 25px 30px auto 30px;
+    
+    display: block;
     overflow: hidden;
     align-items: center;
     box-shadow: .1rem .2rem .8rem;
-    margin: 35px 15px 15px 10px;
     transition: 250ms;
+}
+.footer{
+    position: absolute;
+    bottom: 0%;
+}
+
+.container-item img{
+    
+    
 }
 
 /*menu mobile*/
@@ -104,48 +110,28 @@ border-radius: 30%;
 }
 
 .container-item img{
-    width: 270px;
+    width: 100%;
     height: 270px;
-    
-    
-}
-.descricao{
     display: flex;
-    background-color: #0a0300;
-    height: 15vh;
-    color: azure;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    font-size: 17px;
-    padding: 3px;
-}
-.valor{
-    align-items: center;
-    text-align: center;
     
+    
+}
+
+.comprar, .comprar a{
+    background-color: #0a0000;
+    color: #d3f3f1;
+    text-align: center;
 }
 .comprar{
-    background-color: #f84f1b;
-    align-items: center;
-    text-align: center;
-    border-radius: 3px;
-    font-size: 13px;
-    width: 180px;
-    margin: 30px auto;
-    transition: 50ms;
-}
-.comprar:hover{
-    cursor: pointer;
-    background-color: #10110e;
-    color: #eda840;
-    
-
+    width: auto;
+    height: max-content;
 }
 
 
 .footer{
     padding-bottom: 0;
+    position: absolute;
+    bottom: 0%;
 }
 .footer p{
     align-items: center;
@@ -167,7 +153,7 @@ border-radius: 30%;
 }
 
     .container-item{
-        width: 200px;
+        width: 100%;
         height: min-content;
         background-color: ;
         margin: 5px 5px auto 5px;
@@ -177,10 +163,18 @@ border-radius: 30%;
         box-shadow: .1rem .2rem .8rem;
     }
     .container-item img{
-        width: 150px;
-        height: 150px;
-        
-    
+        width: 99%;
+        height: 99%;
+        margin-top: auto 25px;
+       
+    }
+    .comprar, .comprar a{
+        background-color: #0a0000;
+        color: #d3f3f1;
+    }
+    .comprar{
+        width: auto;
+        height: max-content;
     }
     .menu{
         align-items: center;
@@ -208,7 +202,7 @@ border-radius: 30%;
     .container-item{
         display:block;
         width: 100%;
-        height: min-content;
+        height: 100%;
         border-radius: 1px;
         text-align: center;
         padding: 0%;
@@ -216,8 +210,8 @@ border-radius: 30%;
         
     }
     .container-item img{
-        width: 240px;
-        height: 240px;
+        width: 99%;
+        height: 99%;
         
     }
     .container-main{
