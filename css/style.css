@@ -27,9 +27,11 @@
     height: 100px;
 }
 .logo img{
-    width: 150px;
-    border-radius: 3px;
+    width: 130px;
+    padding: 5px;
+    border-radius: 50%;
     display: flex;
+    box-shadow: #ecebeb 0px 0px 35px 3px;
 }
 
 .menu a{
@@ -40,9 +42,9 @@
 }
 
 .menu a:hover{
-    color: #f0e0da;
+    color: #7ce41b;
     border-bottom: 2px rgb(33, 202, 103) solid;
-    transform: scale(1.08);
+    
 }
 .menu{
     display: inline;
@@ -56,7 +58,7 @@
     gap: .6rem;
 }
 .social img{
-width: 35px;
+width: 30px;
 border-radius: 30%;
 }
 .social img:hover{
@@ -71,102 +73,30 @@ border-radius: 30%;
     border-radius: 3px;
     
 }
-/*------------------------body-----------------------------------*/
-main{
-   
-   
-    
-}
-.container-main{
-    
-    display: inline-flex; 
-    
-}
+/*------------------------Inicio body-----------------------------------*/
 
 
-.container-item{
-    display: block;
-    width: 250px;
-    align-items: center;
-    box-shadow: .1rem .2rem .8rem;
-    transition: 250ms;
-    
-}
+/*------------------------Fim body-----------------------------------*/
 
-.container-main img{
-    /* width: 270px; */
-}
-.comprar{
-    /* margin-bottom: 60px; */
-    animation: comprar 5s linear alternate infinite;
-}
-.comprar a{
-    animation: comprar 5s linear alternate infinite;
-}
-@keyframes comprar{
-    0% {
-        
-        color: #f5efea;
-    }
-    100% {
-        color: #c3cb36;
-        
-    }
-}
-.footer{
+/*------------------------Inicio footer-----------------------------------*/
+
+
+footer{
     position: absolute;
     bottom: 0%;
-}
-
-.container-item img{
-   
+    
     
 }
-
-/*menu mobile*/
-
-.menu-mobile{
-    display: none;
-}
-
-/*fim menu mobile*/
-
-.container-item:hover{
-    box-shadow: 0rem 0rem 2rem rgb(10, 10, 10);
-    
-       
-}
-
-.container-item img{
-    width: 100%;
-    height: 270px;
+.footer{
+    width: 100vw;
     display: flex;
+    justify-content: center;
     
-    
-}
-
-.comprar, .comprar a{
-    background-color: #0a0000;
-    color: #d3f3f1;
-    text-align: center;
-}
-.comprar{
-    width: auto;
-    height: max-content;
 }
 
 
-.footer{
-    padding-bottom: 0;
-    position: absolute;
-    bottom: 0%;
-}
-.footer p{
-    align-items: center;
-    padding-bottom: 0;
-    text-align: center;
-    bottom: 0%;
-}
+/*------------------------Fim footer-----------------------------------*/
+
 
 
 /*------------mobile versao 900-------------------*/
@@ -180,30 +110,7 @@ main{
     width: 25px;
 }
 
-    .container-item{
-        width: 100%;
-        height: min-content;
-        background-color: ;
-        margin: 5px 5px auto 5px;
-        border-radius: 2px;
-        overflow: hidden;
-        align-items: center;
-        box-shadow: .1rem .2rem .8rem;
-    }
-    .container-item img{
-        width: 99%;
-        height: 99%;
-        margin-top: auto 25px;
-       
-    }
-    .comprar, .comprar a{
-        background-color: #0a0000;
-        color: #d3f3f1;
-    }
-    .comprar{
-        width: auto;
-        height: max-content;
-    }
+ 
     .menu{
         align-items: center;
         padding-right: 5px;
@@ -225,30 +132,10 @@ main{
         height: 100vh;
         background-color: #9260d4;
         z-index: 1;
-        backdrop-filter: ;
-    }
-    .container-item{
-        display:block;
-        width: 100%;
-        height: 100%;
-        border-radius: 1px;
-        text-align: center;
-        padding: 0%;
-        margin: 0%;
         
     }
-    .container-item img{
-        width: 99%;
-        height: 99%;
-        
-    }
-    .container-main{
-        display: block;
-    }
-    .descricao p{
-        padding: 10px;
-        margin: auto;
-    }
+   
+
 }
 
 
