@@ -74,8 +74,36 @@ border-radius: 30%;
     
 }
 /*------------------------Inicio body-----------------------------------*/
+main{
+    position: static;
+    width: 95vw;
+    border: #0a0000 1px solid;
+    margin: auto;
+    
+          
+}
+.prod_destaque{
+    position: relative;
+    width: 100%;
+    margin: auto;
+      
+}
+
+.item_destaque{
+    background-color: #1b22e4;
+    display: inline-flex;
+    margin: auto;
+    
+}
 
 
+.item_destaque img{
+    width:500px;
+    height: 250px;
+     
+    
+    
+}
 /*------------------------Fim body-----------------------------------*/
 
 /*------------------------Inicio footer-----------------------------------*/
