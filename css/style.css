@@ -1,10 +1,14 @@
 
+body{
+    background-color: black;
+}
 .container-grade {
     width: 100%;
     height: auto;
     justify-content: center;
     display: inline-flexbox;
     text-align: center;    
+    background-color: black;
     
 }
 
@@ -15,7 +19,7 @@
     max-width: 250px;
     min-width: 200px;
     border-radius: 4%;
-    box-shadow: 1px 0px 5px 4px rgb(223, 39, 39);
+    box-shadow: 1px 0px 5px 4px rgb(15, 15, 15);
     margin-top: 5px;
     transition: 250ms;
 }
