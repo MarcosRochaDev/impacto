@@ -15,7 +15,7 @@ body{
 .container-grade img{
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: fill;
     max-width: 250px;
     min-width: 200px;
     border-radius: 4%;
@@ -26,4 +26,43 @@ body{
 
 .container-grade img:hover{
     transform: scale(1.04);
+}
+
+@media screen and (max-width: 650px) {
+
+    .container-grade {
+        
+        display: inline-flexbox;
+        text-align: center;    
+        background-color: black;
+        
+    }
+
+
+
+    .container-grade img{
+        min-width: 450px;
+        height: 80vh;
+        object-fit: fill;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container-grade {
+        
+        display: inline-flexbox;
+        text-align: center;    
+        background-color: black;
+        
+    }
+
+
+
+    .container-grade img{
+        min-width: 350px;
+        height: 80vh;
+        object-fit: fill;
+    }
 }
