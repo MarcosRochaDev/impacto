@@ -1,14 +1,13 @@
-.col img{
 
-
+.container-fluid {
+    width: 100%;
+    height: auto;
+        
 }
 
-/* @media screen and (min-width: 1200px) {
-
-.img-fluid{
-    width: 400px;
-    display: inline-flex;
+.container-fluid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
 }
-
-}
- */
